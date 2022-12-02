@@ -52,6 +52,16 @@ export default function Home() {
 
 
           </a>
+          <a
+            href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.card}
+          >
+            <Image src="/vercel.svg" alt="Vercel Logo" />
+
+
+          </a>
         </div>
       </main>
 
