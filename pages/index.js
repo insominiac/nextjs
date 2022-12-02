@@ -48,6 +48,8 @@ export default function Home() {
             className={styles.card}
           >
             <img src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" alt="Vercel Logo" />
+            <Image src="/vercel.svg" alt="Vercel Logo" />
+
 
           </a>
         </div>
