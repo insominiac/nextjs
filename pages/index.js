@@ -8,13 +8,13 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>This is a test</title>
-        <meta name="description" content=" " />
-        <meta name="title" content=" " />
+        <meta name="description" content=" teres" />
+        <meta property="og:title"  content=" " />
 
         <meta
-    property="og:image"
-    content="/test2.jpeg"
-  />
+            property="og:image"
+            content="/test2.jpeg"
+           />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
