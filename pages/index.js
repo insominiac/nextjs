@@ -47,7 +47,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <img src="www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" alt="Vercel Logo" />
+            <img src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" alt="Vercel Logo" />
 
           </a>
         </div>
