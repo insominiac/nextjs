@@ -52,7 +52,7 @@ export default function Home() {
 
           </a>
           <a
-            href="https://www.shtypketu.com/sh%cf%81erthen-edison-y%cf%81i-femrat-e-sig%cf%85rimit-ishin-k%cf%85rva-qe-beheshin-k%cf%85rva-%cf%81er-te-miren-e-%cf%81artise/"
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
