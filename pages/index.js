@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>This is a test</title>
         <meta name="description" content=" teres" />
-        <meta property="og:title"  content=" " />
+        <meta property="og:title"  content="\!" />
 
         <meta
             property="og:image"
@@ -64,6 +64,8 @@ export default function Home() {
             className={styles.card}
           >
             <Image src="/test2.jpeg" alt="Vercel Logo" />
+          
+            <link rel="/test2.jpeg" href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" />
 
 
           </a>
