@@ -47,13 +47,12 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <img src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" alt="Vercel Logo" />
             <Image src="/vercel.svg" alt="Vercel Logo" />
 
 
           </a>
           <a
-            href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg"
+            href="https://www.shtypketu.com/sh%cf%81erthen-edison-y%cf%81i-femrat-e-sig%cf%85rimit-ishin-k%cf%85rva-qe-beheshin-k%cf%85rva-%cf%81er-te-miren-e-%cf%81artise/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
