@@ -65,10 +65,11 @@ export default function Home() {
           >
             <Image src="/test2.jpeg" alt="Vercel Logo" />
           
-            <link rel="/test2.jpeg" href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" />
 
 
           </a>
+          <link rel="/test2.jpeg" href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" />
+
         </div>
       </main>
 
