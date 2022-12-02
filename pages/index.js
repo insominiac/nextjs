@@ -41,12 +41,12 @@ export default function Home() {
           </a>
 
           <a
-            href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg"
+            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <Image src="/vercel.svg"/>
+            <Image src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg"/>
           </a>
         </div>
       </main>
