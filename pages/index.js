@@ -57,7 +57,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <Image src="/vercel.svg" alt="Vercel Logo" />
+            <Image src="/test2.jpg" alt="Vercel Logo" />
 
 
           </a>
