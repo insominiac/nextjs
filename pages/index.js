@@ -46,7 +46,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://insominiac.vercel.app/?fbclid=IwAR0bm7noVreRtm5KfAEz72iLeJkkXbpbinjua4WeZAoNgbk76e_B_TzRUpY"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
