@@ -41,7 +41,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.card}
