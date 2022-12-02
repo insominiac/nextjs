@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import pic from 'www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
+//import pic from 'www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -47,7 +47,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <Image src={pic} alt="Vercel Logo" />
+            <img src="www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" alt="Vercel Logo" />
 
           </a>
         </div>
