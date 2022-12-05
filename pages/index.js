@@ -17,7 +17,7 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title class="tite">This is a test m</title>
+        <title>&nbsp;</title>
         <meta name="description" content=" " />
         <meta property="og:title"  content="" />
         <meta property="og:url"  content="/" />
