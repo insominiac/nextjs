@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>This is a test</title>
-        <meta name="description" content=" teres" />
+        <meta name="description" content=" " />
         <meta property="og:title"  content=" " />
 
         <meta
