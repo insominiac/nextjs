@@ -9,7 +9,7 @@ export default function Home({data}) {
   const postHtml = data.map((post,i)=>{
     return(
     
-       <p key={post.id}>{post.title.rendered}{post.about}<Image src= {post.featured_media}/></p>
+       <p key={post.id}>{post.title.rendered}{post.about}<Image src= {post.featuredImage?.sourceUrl}/></p>
        
        
     
