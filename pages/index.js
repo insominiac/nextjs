@@ -7,9 +7,11 @@ export default function Home({data}) {
   console.log(data)
 
   const postHtml = data.map((post,i)=>{
+    const featuredMedia = post['_embedded']['wp:featuredmedia'][0];
+
     return(
-    
-       <p key={post.id}>{post.title.rendered}</p>
+
+       <p key={post.id}>{post.title.rendered}{featuredMedia}</p>
        
     )
   })
