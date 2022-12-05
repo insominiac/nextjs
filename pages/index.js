@@ -5,10 +5,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home({data}) {
   console.log(data)
-  const featuredMedia = post['_embedded']['wp:featuredmedia'][0];
 
   const postHtml = data.map((post,i)=>{
-    console.log(featuredMedia)
 
     return(
 
