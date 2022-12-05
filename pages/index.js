@@ -5,21 +5,14 @@ import styles from '../styles/Home.module.css'
 
 export default function Home({data}) {
   console.log(data)
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title class="tite">This is a test m</title>
-        <meta name="description" content=" " />
-        <meta property="og:title"  content="" />
-
-        <meta
-            property="og:image"
-            content="/test2.jpeg"
-           />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-    </div>
-  )
+  const postHtml = data.map((post,i)=>{
+    return(<p key={post.id}>{post.title.rendered}</p>
+    
+    
+    )
+  })
+  
+  
 }
 
 export async function getServerSideProps(context){
