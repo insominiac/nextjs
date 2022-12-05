@@ -69,7 +69,6 @@ export default function Home() {
 
 
           </a>
-          <link rel={pic} href="https://vercel.com" />
 
         </div>
       </main>
