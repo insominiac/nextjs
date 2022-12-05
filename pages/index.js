@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>This is a test</title>
         <meta name="description" content=" " />
-        <meta property="og:title"  content=" " />
+        <meta property="og:title"  content="&nbsp;" />
 
         <meta
             property="og:image"
