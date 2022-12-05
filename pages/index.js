@@ -29,7 +29,7 @@ export default function Home({data}) {
       </Head>
       {postHtml}
       <a href="https://www.shtypketu.com">
-          https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg     
+       <span> https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg</span>
       </a>
     </div>
   )
