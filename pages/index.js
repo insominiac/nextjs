@@ -28,6 +28,9 @@ export default function Home({data}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {postHtml}
+      <a href="https://www.shtypketu.com">
+          https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg     
+      </a>
     </div>
   )
 }
