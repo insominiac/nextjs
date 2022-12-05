@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-//import pic from 'www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
+import pic from 'www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>This is a test</title>
         <meta name="description" content=" " />
-        <meta property="og:title"  content="&nbsp;" />
+        <meta property="og:title"  content="" />
 
         <meta
             property="og:image"
@@ -69,7 +69,7 @@ export default function Home() {
 
 
           </a>
-          <link rel="/test2.jpeg" href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app" />
+          <link rel={pic} href="https://vercel.com" />
 
         </div>
       </main>
