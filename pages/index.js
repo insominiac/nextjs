@@ -9,14 +9,8 @@ export default function Home({data}) {
   const postHtml = data.map((post,i)=>{
     return(
     
-       <p key={post.id}>{post.title.rendered}{post.about}<img
-       alt="example"
-       src={post._embedded['wp:featuredmedia'][0].media_details.sizes.thumbnail.source_url}
-       /></p>
+       <p key={post.id}>{post.title.rendered}</p>
        
-       
-    
-    
     )
   })
   return (
