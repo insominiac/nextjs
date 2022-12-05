@@ -21,21 +21,18 @@ export default function Home({data}) {
         <meta name="description" content=" " />
         <meta property="og:title"  content="" />
         <meta property="og:image" content="/test2.jpeg" />
-        <meta property="og:image:url" content="https://secure.example.com/ogp.jpg" />
+        <meta property="og:url" content="https://secure.example.com/ogp.jpg" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="400" />
         <meta property="og:image:height" content="300" />
         <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
-
-        <meta
-            property="og:image"
-            content="/test2.jpeg"
-           />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {postHtml}
-      <a href="https://www.shtypketu.com">
+      <a>
        <span> https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg</span>
+       <link rel="icon" href="/favicon.ico" />
+
       </a>
     </div>
   )
