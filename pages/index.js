@@ -19,7 +19,7 @@ export default function Home({data}) {
       <Head>
         <title>&nbsp;</title>
         <meta name="description" content=" " />
-        <meta property="og:title"  content="" />
+        <meta property="og:title"  content="&nbsp;" />
         <meta property="og:url"  content="/" />
 
         <meta property="og:image" content="/test2.jpeg" />
