@@ -20,6 +20,8 @@ export default function Home({data}) {
         <title class="tite">This is a test m</title>
         <meta name="description" content=" " />
         <meta property="og:title"  content="" />
+        <meta property="og:url"  content="/" />
+
         <meta property="og:image" content="/test2.jpeg" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="800" />
