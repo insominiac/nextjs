@@ -30,7 +30,8 @@ export default function Home({data}) {
       </Head>
       {postHtml}
       <a>
-       <link href="/favicon.ico"> https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg</link>
+       <span> https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg</span>
+       <link rel="icon" href="/favicon.ico" />
 
       </a>
     </div>
