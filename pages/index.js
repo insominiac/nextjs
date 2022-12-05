@@ -9,11 +9,12 @@ export default function Home() {
       <Head>
         <title>This is a test</title>
         <meta name="description" content=" teres" />
-        <meta property="og:title"  content="\!" />
+        <meta property="og:title"  content=" " />
 
         <meta
             property="og:image"
             content="/test2.jpeg"
+            
            />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -63,7 +64,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.card}
           >
-            <Image src="/test2.jpeg" alt="Vercel Logo" />
+            <Image src="/test3.jpeg" alt="Vercel Logo" />
           
 
 
