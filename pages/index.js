@@ -37,14 +37,9 @@ export default function Home({data}) {
       </Head>
       {postHtml}
        <span> This is a text</span>
-      <Link href="/">
-              <Image
-              loader={myLoader}
-              src="me.png"
-              alt="Picture of the author"
-              width={800}
-              height={800}
-            />
+      <Link href="/" src={`https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg`}>
+             
+           This is a Test Link
       </Link>
     </div>
   )
