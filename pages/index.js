@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 //import pic from 'https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
 import styles from '../styles/Home.module.css'
-
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 export default function Home({data}) {
   console.log(data)
 
@@ -14,11 +15,14 @@ export default function Home({data}) {
        
     )
   })
+  const myLoader = ({ src, width, quality }) => {
+    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+  }
   return (
     <div className={styles.container}>
       <Head>
         <title>&nbsp;</title>
-        <meta name="description" content=" " />
+        <meta name="description" content="nbsp" />
         <meta property="og:title"  content="&nbsp;" />
         <meta property="og:url"  content="/" />
 
@@ -33,6 +37,15 @@ export default function Home({data}) {
       </Head>
       {postHtml}
        <span> This is a text</span>
+      <Link href="/">
+              <Image
+              loader={myLoader}
+              src="me.png"
+              alt="Picture of the author"
+              width={800}
+              height={800}
+            />
+      </Link>
     </div>
   )
 }
