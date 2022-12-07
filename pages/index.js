@@ -28,8 +28,8 @@ export default function Home({data}) {
 
         <meta property="og:image" content="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" />
         <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="800" />
+        <meta property="og:image:width" content="800px" />
+        <meta property="og:image:height" content="800px" />
         <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
 
        
