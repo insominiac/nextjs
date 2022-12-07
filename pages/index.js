@@ -21,8 +21,7 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>&nbsp;</title>
-        <meta name="description" content="&nbsp;" />
+        
         
        
         <link rel="icon" href="/favicon.ico" />
