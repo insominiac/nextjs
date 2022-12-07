@@ -39,7 +39,7 @@ export default function Home({data}) {
        <span> This is a text</span>
      
       <a href="#">
-          <img src="/"></img>
+          <img src="/">This is a test</img>
       </a>
     </div>
   )
