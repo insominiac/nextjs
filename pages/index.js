@@ -22,7 +22,7 @@ export default function Home({data}) {
     <div className={styles.container}>
       <Head>
         <title>&nbsp;</title>
-        <meta name="description" content="&nbsp" />
+        <meta name="description" content="&nbsp;" />
         <meta property="og:title"  content="&nbsp;" />
         <meta property="og:url"  content="/" />
 
