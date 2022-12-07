@@ -37,9 +37,10 @@ export default function Home({data}) {
       </Head>
       {postHtml}
        <span> This is a text</span>
-      <Link href="/" src={`https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg`}>
-             This is test
-      </Link>
+     
+      <a href="#">
+          <img src="/"></img>
+      </a>
     </div>
   )
 }
