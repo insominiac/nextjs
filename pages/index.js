@@ -21,8 +21,8 @@ export default function Home({data}) {
   return (
     <div className={styles.container}>
       <Head>
-        
-        
+        <title></title>
+        <meta name="description" content="&nbsp;" />
        
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -30,7 +30,7 @@ export default function Home({data}) {
        <span> This is a text</span>
      
       <a href="#">
-          <img src="/" width="500" height="600"></img>
+          <img src="https://scontent.fpnq7-5.fna.fbcdn.net/v/t45.1600-4/313199230_23852376360470315_3351487654701194431_n.png?stp=cp0_dst-jpg_fr_q90_spS444&_nc_cat=107&ccb=1-7&_nc_sid=67cdda&_nc_ohc=yoZ92rZCXFsAX_ro14c&_nc_oc=AQmoPZQvuCJsxFeK5OlHWRVoO9OWmcjLUMOKDE6VpzLS2ZyweqjQYQsVHbPrtXKGPVU&_nc_ht=scontent.fpnq7-5.fna&oh=00_AfCnKpReDjrbxljAZzCaU5yCQoHCKQg6N4RqpshvmNUutg&oe=63959727" width="500" height="600"></img>
       </a>
     </div>
   )
