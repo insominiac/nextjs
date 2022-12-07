@@ -38,8 +38,7 @@ export default function Home({data}) {
       {postHtml}
        <span> This is a text</span>
       <Link href="/" src={`https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg`}>
-             
-           <Image src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg">This is a Test Link</Image>
+             This is test
       </Link>
     </div>
   )
