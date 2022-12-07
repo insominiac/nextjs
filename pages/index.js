@@ -39,7 +39,7 @@ export default function Home({data}) {
        <span> This is a text</span>
       <Link href="/" src={`https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg`}>
              
-           <img>This is a Test Link</img>
+           <img src="/">This is a Test Link</img>
       </Link>
     </div>
   )
