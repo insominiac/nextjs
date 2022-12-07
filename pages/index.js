@@ -23,14 +23,7 @@ export default function Home({data}) {
       <Head>
         <title>&nbsp;</title>
         <meta name="description" content="&nbsp;" />
-        <meta property="og:title"  content="&nbsp;" />
-        <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
-        <meta property="og:image" content="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="800px" />
-        <meta property="og:image:height" content="800px" />
-        <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
-
+        
        
         <link rel="icon" href="/favicon.ico" />
       </Head>
