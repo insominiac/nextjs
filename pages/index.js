@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 export default function Home({data}) {
   console.log(data)
-
+  const pic = 'https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
   const postHtml = data.map((post,i)=>{
 
     return(
@@ -22,17 +22,18 @@ export default function Home({data}) {
     <div className={styles.container}>
       <Head>
         <title></title>
-        <meta property="og:title" content="The Rock" />
+        <meta property='og:image' content={pic}/>
+        <meta property="og:title" content="Thes Rock" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <link rel="icon" href="/insominiac.vercel.app" />
         <meta property="og:description" content=" "/>
        
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta property="twitter:domain" content="insominiac.vercel.app"/>
-  <meta property="twitter:url" content="https://insominiac.vercel.app/"/>
-  <meta name="twitter:title" content="The Rock"/>
-  <meta name="twitter:description" content=" "/>
-  <meta name="twitter:image" content=""/>
+         <meta name="twitter:card" content="summary_large_image"/>
+         <meta property="twitter:domain" content="insominiac.vercel.app"/>
+         <meta property="twitter:url" content="https://insominiac.vercel.app/"/>
+         <meta name="twitter:title" content="The Rock"/>
+          <meta name="twitter:description" content=" "/>
+          <meta name="twitter:image" content=""/>
 
       </Head>
       {postHtml}
