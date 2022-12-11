@@ -22,17 +22,17 @@ export default function Home({data}) {
     )
   })
   const myLoader = ({ src, width, quality }) => {
-    return `https://example.com/${src}?w=${width}&q=${quality || 75}`
+    return `https://www.shtypketu.com/${src}?w=${width}&q=${quality || 75}`
   }
   return (
     <div className={styles.container}>
       <Head>
         <title></title>
         <meta property='og:image' content={pic}/>
-        <meta property="og:title" content="Thes Rock" />
+        <meta property="og:title" content="&hellip;" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <link rel="icon" href="/insominiac.vercel.app" />
-        <meta property="og:description" content=" "/>
+        <meta property="og:description" content="&hellip;"/>
        
          <meta name="twitter:card" content="summary_large_image"/>
          <meta property="twitter:domain" content="insominiac.vercel.app"/>
@@ -44,7 +44,6 @@ export default function Home({data}) {
       </Head>
       {postHtml}
        <span> This is a text</span>
-      {picFunc}
      
       <a href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg">test.com</a>
        
