@@ -29,7 +29,7 @@ export default function Home({data}) {
       <Head>
         <title></title>
         <meta property='og:image' content={pic}/>
-        <meta property="og:title" content="&hellip;" />
+        <meta property="og:title" content="&nbsp;" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <link rel="icon" href="/insominiac.vercel.app" />
         <meta property="og:description" content=" "/>
