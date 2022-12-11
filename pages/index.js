@@ -6,7 +6,13 @@ import { useRouter } from 'next/router'
 import Link from 'next/link'
 export default function Home({data}) {
   console.log(data)
-  const pic = 'https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
+
+  const picFunc = ()=>{
+
+        <Image alt="just a t4est" src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" width={800} height={200}/>
+
+  }
+  //const pic = 'https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
   const postHtml = data.map((post,i)=>{
 
     return(
@@ -38,6 +44,7 @@ export default function Home({data}) {
       </Head>
       {postHtml}
        <span> This is a text</span>
+      {picFunc}
      
       <a href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg">test.com</a>
        
