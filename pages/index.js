@@ -23,9 +23,17 @@ export default function Home({data}) {
       <Head>
         <title></title>
         <meta property="og:title" content="The Rock" />
-        <meta name="description" content="&nbsp;" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
         <link rel="icon" href="/insominiac.vercel.app" />
+        <meta property="og:description" content=" "/>
+       
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:domain" content="insominiac.vercel.app"/>
+  <meta property="twitter:url" content="https://insominiac.vercel.app/"/>
+  <meta name="twitter:title" content="The Rock"/>
+  <meta name="twitter:description" content=" "/>
+  <meta name="twitter:image" content=""/>
+
       </Head>
       {postHtml}
        <span> This is a text</span>
