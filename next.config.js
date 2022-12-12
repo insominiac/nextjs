@@ -4,8 +4,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/test2.jpeg',
-        destination: 'https://www.shtypketu.com/i-vdekuri-cohet-ne-kembe-ne-morg-dhe-fillon-te-ece-duke-tmerruar-punonjesit/',
+        source: '/testimg.png',
+        destination: 'https://www.shtypketu.com/video-e-gert-shehut-duke-pritur-te-kaloje-sali-berisha/',
         permanent: false,
       },
       // Path Matching - will match `/old-blog/a`, but not `/old-blog/a/b`
