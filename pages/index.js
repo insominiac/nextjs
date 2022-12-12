@@ -7,7 +7,7 @@ import Link from 'next/link'
 export default function Home({data}) {
   console.log(data)
 
-  const picFunc = ()=>{
+  function picFunc() {
 
         <Image alt="just a t4est" src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" width={800} height={200}/>
 
