@@ -45,8 +45,8 @@ export default function Home({data}) {
       {postHtml}
        <span> This is a text</span>
       {picFunc}
-     <Link href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg">
-      https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg
+     <Link href="https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg">
+      https://www.shtypketu.com/wp-content/uploads/2022/12/test2.jpg
      </Link>
        
     </div>
