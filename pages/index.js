@@ -46,8 +46,7 @@ export default function Home({data}) {
        <span> This is a text</span>
       {picFunc}
      <Link href="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg">
-     <a>https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg"</a>
-
+      https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg
      </Link>
        
     </div>
