@@ -46,7 +46,7 @@ export default function Home({data}) {
        <span> This is a text</span>
       {picFunc}
      <Link href="https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg">
-      https://www.shtypketu.com/wp-content/uploads/2022/12/test2.jpg
+      https://insominiac.vercel.app/test2.jpeg
      </Link>
        
     </div>
