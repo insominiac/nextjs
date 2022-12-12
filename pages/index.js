@@ -31,7 +31,7 @@ export default function Home({data}) {
         <meta property='og:image' content={pic}/>
         <meta property="og:title" content="&nbsp;" />
         <meta property="og:url" content="https://www.imdb.com/title/tt0117500/" />
-        <link rel="icon" href="/insominiac.vercel.app" />
+        <link rel="icon" href="insominiac.vercel.app" />
         <meta property="og:description" content=" "/>
        
          <meta name="twitter:card" content="summary_large_image"/>
