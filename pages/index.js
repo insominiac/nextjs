@@ -9,7 +9,7 @@ export default function Home({data}) {
 
   function picFunc() {
 
-        <Image alt="just a t4est" src="https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg" width={800} height={200}/>
+        <Image alt="just a t4est" src="/test2.jpeg" width={800} height={200}/>
 
   }
   const pic = 'https://www.shtypketu.com/wp-content/uploads/2022/12/test1.jpg'
