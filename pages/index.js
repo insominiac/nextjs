@@ -45,7 +45,7 @@ export default function Home({data}) {
       {postHtml}
        <span> This is a text</span>
       {picFunc}
-     <Link href="https://www.shtypketu.com/wp-content/uploads/2022/12/test3.jpg">
+     <Link href="https://insominiac.vercel.app/test3.jpeg">
       https://insominiac.vercel.app/test2.jpeg
      </Link>
        
