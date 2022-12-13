@@ -46,9 +46,7 @@ export default function Home({data}) {
        <span> This is a text</span>
       {picFunc}
       <Link href="https://insominiac.vercel.app/testimg.png">
-   insominiac.vercel.app/test3.jpg
-
-     </Link>
+      https://scontent.fpnq7-5.fna.fbcdn.net/v/t39.30808-6/318591353_107101642245698_5018966578154803446_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=RBQCZBRO1JoAX980IJN&_nc_ht=scontent.fpnq7-5.fna&oh=00_AfBCdi_TwAH4sp6XFN9d2ddVzm-qNVeLDSINxWo5qzIG5w&oe=639D4D06     </Link>
        
     </div>
   )
